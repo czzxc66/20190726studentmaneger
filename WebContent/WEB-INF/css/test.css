@@ -1,0 +1,43 @@
+ table tr td{
+   border-top:1px solid black;
+   border-left:1px solid black;
+ }
+
+table tr td:last-of-type{
+	border-right:1px solid black;
+}
+
+table tr:last-of-type td{
+	border-bottom:1px solid black;
+}
+
+table tr:nth-child(1) td{
+	text-align:center;
+}
+
+table tr:nth-child(n+2) td{
+	text-align:left;
+}
+
+table tr:nth-child(n+2) td:nth-child(1){
+	text-align:center;
+}
+
+table tr:nth-child(n+2) td:nth-child(4){
+	text-align:right;
+}
+
+table tr:nth-child(n+2) td:nth-child(5){
+	text-align:right;
+}
+
+.headBackground{
+	background:yellow;
+}
+  #addOrder_comm{
+    width: 500px;
+    height:100px;
+    margin: 20px auto;
+    color:black
+
+  }

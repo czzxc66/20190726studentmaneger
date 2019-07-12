@@ -1,0 +1,7 @@
+.block {
+  margin-bottom: 30px;
+}
+.block p {
+  margin-bottom: 0px;
+  font-size: 14px;
+}
